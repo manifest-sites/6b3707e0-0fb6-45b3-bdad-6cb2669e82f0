@@ -1,0 +1,43 @@
+{
+  "name": "ApplePie",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number",
+      "description": "Unique identifier for the apple pie entry"
+    },
+    "name": {
+      "type": "string",
+      "description": "Name or description of the apple pie"
+    },
+    "flavor": {
+      "type": "string",
+      "description": "Flavor of the apple pie (e.g., classic, caramel, cinnamon)"
+    },
+    "rating": {
+      "type": "number",
+      "description": "Rating out of 5 stars"
+    },
+    "location": {
+      "type": "string",
+      "description": "Where the pie was eaten (restaurant, home, etc.)"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Additional notes about the pie"
+    },
+    "dateEaten": {
+      "type": "string",
+      "description": "Date when the pie was eaten"
+    },
+    "imageUrl": {
+      "type": "string",
+      "description": "Optional image URL of the pie"
+    }
+  },
+  "required": [
+    "name",
+    "rating",
+    "dateEaten"
+  ]
+}
